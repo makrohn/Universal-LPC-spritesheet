@@ -1,23 +1,125 @@
-I just keep adding bits and pieces of art prepared for the LPC by:
+I just keep adding bits and pieces of art prepared for the LPC by, as named by layer in the xcf file,
 
 Luke Mehl
 ---------
 Most of the female assets
+All layers in the tiaras group
+All layers in the necklaces group
+All layers in the buckles group
+silverbelt.png
+ironbelt.png
+goldbelt.png
+brownbelt.png
+bronzebelt.png
+blackbelt.png
+All layers in the robes group
+slippers_white.png
+slippers_gray.png
+slippers_brown.png
+slippers_black.png
 
 Johannes Sjölund
 ----------------
-Most of the male assets
+shield (cutout metal hat)
+shield (cutout body)
+spear
+dagger (male)
+arrow
+bow
+gloves metal (male)
+helmet metal (plate)
+hat (chain)
+hat (leather)
+hood (chain)
+hood (robe)
+hair blonde
+Casting Eyeglow
+belt leather (male)
+belt rope (male)
+arms shoulders (male)
+plate (male)
+bracers (male)
+leather shoulders (male)
+torso (male)
+jacket purple (chain)
+torso (chain)
+shirt brown (robes)
+shirt white (leather)
+pants metal (male)
+skirt brown (robes)
+pants greenish (leather, chain)
+boots metal (male)
+shoes black
+shoes brown (leather, chain)
+quiver
+The following base animations:
+	Thrust (male)
+	Shoot (male)
+	Walkcycle (skeleton)
+	Hurt (skeleton)
+	Slash (skeleton)
+	Spellcast (skeleton)
 
 Marcel van de Steeg
 -------------------
-Tanned and dark skinned variants
+bracelet.png
+orceyepatch.png
+bandana.png
+pirateshirtlady.png
+Tanned and dark skinned color tones
+orc.png
 
 Manuel Riecke
 -------------
-Female hair base colors
+ponytail
+loose
+swoop
 
 Thane Brimhall
 --------------
-Dress with sash
+dresswsash.png
+ghillies.png
+
+Matthew Krohn
+-------------
+Adapted the following
+dagger (female)
+gloves metal (female)
+belt leather (female)
+belt rope (female)
+arms shoulders (female)
+plate (female)
+bracers (female)
+leather shoulders (female)
+torso (female)
+robe skirt (female)
+pants metal (female)
+boots metal (female)
+The following base animations:
+	Thrust (female)
+	Shoot (female)
+	
+
+
+Lori Angela Nagel
+-----------------
+wings.png
+Robe
+
+Lanea Zimmerman (AKA Sharm)
+---------------------------
+overskirt.png
+vestblue.png
+underdresswhite.png
+Princess Hair Blonde
+
+Stephen Challener (AKA Redshrike)
+---------------------------------
+The following base animations:
+	Walkcycle (male and female)
+	Hurt (male and female)
+	Slash (male and female)
+	Spellcast (male and female)
+Orc heads adapted by Marcel van de Steeg from Stephen Challener's original material
 
 They are not responsible for any terrible job I do messing with color sliders for hair and clothing.
