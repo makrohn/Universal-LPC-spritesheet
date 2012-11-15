@@ -80,6 +80,9 @@ bangslong
 unkempt
 messy1
 longhawk
+messy2
+bedhead
+shorthawk
 
 Thane Brimhall
 --------------
