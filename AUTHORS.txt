@@ -32,7 +32,7 @@ hat (chain)
 hat (leather)
 hood (chain)
 hood (robe)
-hair blonde
+page (color removed by Matthew Krohn)
 Casting Eyeglow
 belt leather (male)
 belt rope (male)
@@ -83,6 +83,9 @@ longhawk
 messy2
 bedhead
 shorthawk
+bangs
+mohawk
+long
 
 Thane Brimhall
 --------------
@@ -120,7 +123,7 @@ Lanea Zimmerman (AKA Sharm)
 overskirt.png
 vestblue.png
 underdresswhite.png
-Princess Hair Blonde
+princess (color removed by Matthew Krohn)
 
 Stephen Challener (AKA Redshrike)
 ---------------------------------
