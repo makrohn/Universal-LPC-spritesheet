@@ -1,4 +1,4 @@
-I just keep adding bits and pieces of art prepared for the LPC by, as named by layer in the xcf file,
+I just keep adding bits and pieces of art prepared for the LPC by, as named by layer in the xcf file.
 
 Luke Mehl
 ---------
