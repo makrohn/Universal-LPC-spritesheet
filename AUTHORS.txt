@@ -91,6 +91,7 @@ Thane Brimhall
 --------------
 dresswsash.png
 ghillies.png
+All layers in the Formal Male Attire group
 
 Matthew Krohn
 -------------
