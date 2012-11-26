@@ -138,4 +138,9 @@ The following base animations:
 	Spellcast (male and female)
 Orc heads adapted by Marcel van de Steeg from Stephen Challener's original material
 
+Daniel Eddeland
+---------------
+greatbow
+recurve bow
+
 They are not responsible for any terrible job I do messing with color sliders for hair and clothing.
