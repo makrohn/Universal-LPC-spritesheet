@@ -25,7 +25,9 @@ shield (cutout body)
 spear
 dagger (male)
 arrow
+arrow (skeleton)
 bow
+bow (skeleton)
 gloves metal (male)
 helmet metal (plate)
 hat (chain)
