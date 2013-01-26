@@ -3,6 +3,16 @@ Universal Sprite Sheet
 
 An attempt to consolidate all of the humanoid entries from the Liberated Pixel Cup, lpc.opengameart.org, into a single GIMP project, as well as to try and make most clothing accessible by either gender.
 
+Abbreviations
+=============
+
+In trying to keep things organized, I've employed a few different abbreviations to keep the filenames from running out of control.  They are:
+ - sc: spellcast
+ - th: thrust
+ - wc: walkcycle
+ - sl: slash
+ - sh: shoot
+
 COPYING
 =======
 
