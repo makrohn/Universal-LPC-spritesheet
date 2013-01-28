@@ -6,29 +6,26 @@ Most of the female assets
 All layers in the tiaras group
 All layers in the necklaces group
 All layers in the buckles group
-silverbelt.png
-ironbelt.png
-goldbelt.png
-brownbelt.png
-bronzebelt.png
-blackbelt.png
+silver belt
+iron belt
+gold belt
+brown belt
+bronze belt
+black belt
 All layers in the robes group
-slippers_white.png
-slippers_gray.png
-slippers_brown.png
-slippers_black.png
+All layers in the slippers group
 
 Johannes Sjölund
 ----------------
 shield (cutout metal hat)
 shield (cutout body)
 spear
-dagger (male)
+dagger (m)
 arrow
 arrow (skeleton)
 bow
 bow (skeleton)
-gloves metal (male)
+gloves metal (m)
 helmet metal (plate)
 hat (chain)
 hat (leather)
@@ -36,21 +33,21 @@ hood (chain)
 hood (robe)
 page (color removed by Matthew Krohn)
 Casting Eyeglow
-belt leather (male)
-belt rope (male)
-arms shoulders (male)
-plate (male)
-bracers (male)
-leather shoulders (male)
-torso (male)
+belt leather (m)
+belt rope (m)
+arms shoulders (m)
+plate (m)
+bracers (m)
+leather shoulders (m)
+torso (m)
 jacket purple (chain)
 torso (chain)
 shirt brown (robes)
 shirt white (leather)
-pants metal (male)
+pants metal (m)
 skirt brown (robes)
 pants greenish (leather, chain)
-boots metal (male)
+boots metal (m)
 shoes black
 shoes brown (leather, chain)
 quiver
@@ -64,12 +61,12 @@ The following base animations:
 
 Marcel van de Steeg
 -------------------
-bracelet.png
-orceyepatch.png
-bandana.png
-pirateshirtlady.png
+bracelet
+orceyepatch
+bandana
+pirateshirtlady
 Tanned and dark skinned color tones
-orc.png
+orc
 
 Manuel Riecke
 -------------
@@ -91,26 +88,27 @@ long
 
 Thane Brimhall
 --------------
-dresswsash.png
-ghillies.png
+dress with sash
+ghillies
 All layers in the Formal Male Attire group
-All layers in the Accessories group
+All layers in the Accessories group (except necklaces)
 
 Matthew Krohn
 -------------
 Adapted the following
-dagger (female)
-gloves metal (female)
-belt leather (female)
-belt rope (female)
-arms shoulders (female)
-plate (female)
-bracers (female)
-leather shoulders (female)
-torso (female)
-robe skirt (female)
-pants metal (female)
-boots metal (female)
+dagger (f)
+metal gloves (f)
+leather belt (f)
+rope belt (f)
+plate shoulders (f)
+plate chest (f)
+bracers (f)
+leather shoulders (f)
+leather torso (f)
+robe skirt (f)
+metal pants (f)
+metal boots (f)
+golden armor layers (f)
 The following base animations:
 	Thrust (female)
 	Shoot (female)
@@ -119,14 +117,14 @@ The following base animations:
 
 Lori Angela Nagel
 -----------------
-wings.png
-Robe
+wings
+robe
 
 Lanea Zimmerman (AKA Sharm)
 ---------------------------
-overskirt.png
-vestblue.png
-underdresswhite.png
+overskirt
+blue vest
+underdress
 princess (color removed by Matthew Krohn)
 
 Stephen Challener (AKA Redshrike)
@@ -145,6 +143,12 @@ recurve bow
 
 Shaun Williams
 --------------
-Golden Armor layers
+Golden Armor (male) layers (separated by Matthew Krohn)
+
+Joe White
+---------
+brown shoes (f)
+brown shoes (m)
+thrust and shoot animations for slippers layers
 
 They are not responsible for any terrible job I do messing with color sliders for hair and clothing.
