@@ -159,5 +159,6 @@ Joe White
 brown shoes (f)
 black shoes (f)
 thrust and shoot animations for slippers layers
+green pants (f)
 
 They are not responsible for any terrible job I do messing with color sliders for hair and clothing.
