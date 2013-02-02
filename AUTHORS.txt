@@ -58,6 +58,9 @@ The following base animations:
 	Hurt (skeleton)
 	Slash (skeleton)
 	Spellcast (skeleton)
+Oversized spear
+Oversized male longsword
+Oversized male rapier
 
 Marcel van de Steeg
 -------------------
@@ -112,8 +115,10 @@ golden armor layers (f)
 The following base animations:
 	Thrust (female)
 	Shoot (female)
-	
-
+Oversized female longsword
+Oversized female rapier
+Oversized female saber
+Oversized female mace
 
 Lori Angela Nagel
 -----------------
@@ -140,6 +145,10 @@ Daniel Eddeland
 ---------------
 greatbow
 recurve bow
+Oversized male mace
+Oversized male saber
+Oversized trident
+Oversized dragonspear
 
 Shaun Williams
 --------------
