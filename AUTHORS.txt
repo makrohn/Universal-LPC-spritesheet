@@ -157,7 +157,7 @@ Golden Armor (male) layers (separated by Matthew Krohn)
 Joe White
 ---------
 brown shoes (f)
-brown shoes (m)
+black shoes (f)
 thrust and shoot animations for slippers layers
 
 They are not responsible for any terrible job I do messing with color sliders for hair and clothing.
