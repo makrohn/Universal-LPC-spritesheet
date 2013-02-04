@@ -160,5 +160,7 @@ brown shoes (f)
 black shoes (f)
 thrust and shoot animations for slippers layers
 green pants (f)
+ponytail2 hairstyle (f)
+plain hairstyle (m)
 
 They are not responsible for any terrible job I do messing with color sliders for hair and clothing.
