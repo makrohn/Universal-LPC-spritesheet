@@ -32,6 +32,7 @@ hat (leather)
 hood (chain)
 hood (robe)
 page (color removed by Matthew Krohn)
+page2 (adapted from page by Joe White)
 Casting Eyeglow
 belt leather (m)
 belt rope (m)
