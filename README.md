@@ -3,6 +3,10 @@ Universal Sprite Sheet
 
 An attempt to consolidate all of the humanoid entries from the Liberated Pixel Cup, lpc.opengameart.org, into a single GIMP project, as well as to try and make most clothing accessible by either gender.
 
+Online Version
+==============
+Guarav0 Has created an online version of the Universal Sprite Sheet, located at http://gaurav0.koding.com/Universal-LPC-Spritesheet-Character-Generator/
+
 Abbreviations
 =============
 
