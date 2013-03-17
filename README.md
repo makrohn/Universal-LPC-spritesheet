@@ -16,6 +16,7 @@ In trying to keep things organized, I've employed a few different abbreviations 
  - wc: walkcycle
  - sl: slash
  - sh: shoot
+ - hu: hurt
 
 COPYING
 =======
