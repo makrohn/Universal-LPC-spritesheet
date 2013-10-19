@@ -5,9 +5,9 @@ An attempt to consolidate all of the humanoid entries from the Liberated Pixel C
 
 Updates By JaidynReiman
 ==============
-This version of the Universal Sprite Sheet consists of me, JaidynReiman (@jrconway3) making additional updates and touchups to the universal sprite sheet. The existing one seems out of date and not being kept up very well right now. I'm currently working on my own RPG game and I'm using LPC sprites to complete my characters and designs.
+This version of the Universal Sprite Sheet consists of me, JaidynReiman (@jrconway3) making additional updates and touchups to the universal sprite sheet. @makrohn hasn't had much of a reason to update much recently and seems content with me making some updates and changes. I'm currently working on my own RPG game and I'm using LPC sprites to complete my characters and designs.
 
-I will only create new alterrations when I need them, but I will also attempt to finish a number of bugs in the existing sheets I have found as I continue working on my sprites. If @makrohn gets back to working on the main one I'll gladly send any changes and fixes back over to him.
+I will only create new alterrations when I need them, but I will also attempt to finish a number of bugs in the existing sheets I have found as I continue working on my sprites. @makrohn has now started to incorporate my updates into the original as well, so I'm going to work on keeping my commits cleaner from now on.
 
 I will be slowly working on it, so note that it won't get touched up right away. In my first game planned I have more main female characters than male, so male sprite fixes will likely lag behind for a while until I can get to my male characters, so be patient while I work on them.
 
