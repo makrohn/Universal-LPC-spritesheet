@@ -13,7 +13,7 @@ I will be slowly working on it, so note that it won't get touched up right away.
 
 Online Version
 ==============
-Guarav0 Has created an online version of the Universal Sprite Sheet, located at http://gaurav0.koding.com/Universal-LPC-Spritesheet-Character-Generator/
+Guarav0 Has created an online version of the Universal Sprite Sheet, located at http://gaurav.munjal.us/Universal-LPC-Spritesheet-Character-Generator
 
 Abbreviations
 =============
