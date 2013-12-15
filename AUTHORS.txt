@@ -1,4 +1,4 @@
-I just keep adding bits and pieces of art prepared for the LPC by, as named by layer in the xcf file.
+﻿I just keep adding bits and pieces of art prepared for the LPC by, as named by layer in the xcf file.
 
 Luke Mehl
 ---------
@@ -180,6 +180,26 @@ Curly Shoulder Hair (female)
 Female cloth bracers
 Maroon/Magenta pants (female)
 Sleveless shirt (Female)
+
+JaidynReiman
+---------
+Shoulder Hair [based on princess/unkempt] (f)
+Cloth bracers (f)
+Sleveless shirt (f)
+Tunic (f)
+Cape [back] (f)
+Trimmed cape [back] (f)
+Tattered cape [back] (f)
+Cape [behind body] (f)
+Trimmed cape [behind body] (f)
+Tattered cape [behind body] (f)
+Cape clip [accessories/neck] (f)
+Cape strap [accessories/neck] (f)
+
+Nila122
+---------
+darkelf (male and female)
+darkelf2 (male and female)
 
 They are not responsible for any terrible job I do messing with color sliders for hair and clothing.
 

@@ -5,7 +5,7 @@ An attempt to consolidate all of the humanoid entries from the Liberated Pixel C
 
 Online Version
 ==============
-Guarav0 Has created an online version of the Universal Sprite Sheet, located at http://gaurav0.koding.com/Universal-LPC-Spritesheet-Character-Generator/
+Guarav0 Has created an online version of the Universal Sprite Sheet, located at http://gaurav.munjal.us/Universal-LPC-Spritesheet-Character-Generator
 
 Abbreviations
 =============
