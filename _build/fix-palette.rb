@@ -1,6 +1,6 @@
 PALETTES = {
   'hair' => {
-    'ok' => ['#300727', '#6A285E', '#9C5991', '#9C59919C', '#CCA0C5', '#E8CFE4', '#FAF8F9'],
+    'ok' => ['#300727', '#6A285E', '#9C5991', '#9C59919C', '#CCA0C5', '#E8CFE4', '#FAF8F9', '#FFFFFF'],
     'map' => {
       '#00000001' => '#00000000', # spurious near-transparent pixels
       '#00000002' => '#00000000',
@@ -27,7 +27,6 @@ PALETTES = {
       '#00000017' => '#00000000',
       '#00000018' => '#00000000',
       '#000000' => '#300727', # eyebrows from 'princess'
-      '#FFFFFF' => '#FAF8F9', # found in a few female hairstyles; use standard near-white instead
       '#2F0926' => '#300727', # slightly-off color from 'longhawk'
       # Standardize on female hair colors since they've got one extra
       # light color (#E8CFE4) to work with. Accordingly, map the male colors
