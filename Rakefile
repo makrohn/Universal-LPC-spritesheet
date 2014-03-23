@@ -1,4 +1,24 @@
 require './_build/sheets'
+require 'yaml'
+
+class Palettes
+  class << self
+    def [](name)
+      @cache ||= {}
+      if @cache.has_key? name
+        @cache[name]
+      else
+        path = palette_path(name)
+        if File.file?(path)
+          @cache[name] = YAML.load(IO.read(path))
+        end
+      end
+    end
+    def palette_path(name)
+      File.join("_build", name, "palettes.json")
+    end
+  end
+end
 
 class SheetBuilder
   def initialize(outpath)
@@ -74,8 +94,11 @@ class SheetBuilder
   end
 end
 
-def hair_base(path)
-  task :hair => [path]
+def hair_base(path, target)
+  namespace :hair do
+    task :all => target
+    task target => [path]
+  end
   gender = Sheet.gender_name(path)
   layer = Sheet.layer_name(path)
   name = File.basename(path, ".png")
@@ -108,9 +131,51 @@ def hair_base(path)
     end
   end
 end
-def hair(type)
-  hair_base "hair/female/#{type}.png"
-  hair_base "hair/male/#{type}.png"
+def recolor(type, gender, name)
+  palette = Palettes[type]
+  base_image_path = "#{type}/#{gender}/#{name}.png"
+  recolor_image_directory = "#{type}/#{gender}/#{name}"
+  directory recolor_image_directory
+  dependencies = FileList.new
+  dependencies.add "Rakefile", Palettes.palette_path(type), base_image_path, recolor_image_directory
+  palette.keys.each do |palette_name|
+    recolor_image_path = "#{recolor_image_directory}/#{palette_name}.png"
+    namespace type.to_sym do
+      task :all => name.to_sym
+      task name.to_sym => recolor_image_path
+      file recolor_image_path => dependencies do
+        args = [
+          "convert",
+          base_image_path
+        ]
+        palette[palette_name].each_pair do |from, to|
+          args << "-fill"
+          args << to
+          args << "-opaque"
+          args << from
+        end
+        args << "+set"
+        args << "date:create"
+        args << "+set"
+        args << "date:modify"
+        args << recolor_image_path
+        command_line = args.map {|a| '"' + a + '"'}.join(" ")
+        sh command_line
+      end
+    end
+  end
+end
+def hair_and_recolors(gender, name)
+  hair_base "hair/#{gender}/#{name}.png", name.to_sym
+  recolor "hair", gender, name
+end
+def hair(name)
+  namespace :hair do
+    desc "Generates #{name} hair spritesheet and recolors"
+    task name.to_sym
+  end
+  hair_and_recolors "female", name
+  hair_and_recolors "male", name
 end
 Dir["_build/hair/*"].each do |dir|
   if File.directory?(dir)
@@ -118,4 +183,10 @@ Dir["_build/hair/*"].each do |dir|
   end
 end
 
-task :default => [:hair]
+namespace :hair do
+  desc "Generates all hair spritesheets and recolors"
+  task :all
+end
+
+desc "Generates all images"
+task :default => ["hair:all"]
