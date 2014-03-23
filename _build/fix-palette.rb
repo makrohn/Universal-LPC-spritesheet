@@ -1,6 +1,6 @@
 PALETTES = {
   'hair' => {
-    'ok' => ['#300727', '#6A285E', '#9C5991', '#9C59919C', '#CCA0C5', '#E8CFE4', '#FAF8F9'],
+    'ok' => ['#300727', '#6A285E', '#9C5991', '#9C59919C', '#CCA0C5', '#FAF8F9', '#FFFFFF'],
     'map' => {
       '#00000001' => '#00000000', # spurious near-transparent pixels
       '#00000002' => '#00000000',
@@ -27,10 +27,8 @@ PALETTES = {
       '#00000017' => '#00000000',
       '#00000018' => '#00000000',
       '#000000' => '#300727', # eyebrows from 'princess'
-      '#FFFFFF' => '#FAF8F9', # found in a few female hairstyles; use standard near-white instead
       '#2F0926' => '#300727', # slightly-off color from 'longhawk'
-      # Standardize on female hair colors since they've got one extra
-      # light color (#E8CFE4) to work with. Accordingly, map the male colors
+      # Standardize on female hair colors. Accordingly, map the male colors
       # (which are on a slightly different scale) to the female palette.
       '#300A27' => '#300727',
       '#6A385E' => '#6A285E',
@@ -46,8 +44,8 @@ PALETTES = {
       '#023E20' => '#6A285E',
       '#027D21' => '#9C5991',
       '#03BC1B' => '#CCA0C5',
-      '#03F103' => '#E8CFE4',
-      '#98FF75' => '#FAF8F9',
+      '#03F103' => '#FAF8F9',
+      '#98FF75' => '#FFFFFF',
       # Remove extra colors from 'page'
       '#3B1332' => '#300727',
       '#431939' => '#300727',
@@ -63,7 +61,8 @@ PALETTES = {
       '#BB9FB3' => '#CCA0C5',
       '#C1A7BA' => '#CCA0C5',
       '#C7B0C1' => '#CCA0C5',
-      '#E6DEE4' => '#E8CFE4',
+      '#E6DEE4' => '#CCA0C5',
+      '#E8CFE4' => '#CCA0C5',
       '#F2F0F2' => '#FAF8F9',
     }
   }
