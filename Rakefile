@@ -92,6 +92,13 @@ class SheetBuilder
       "+set", "date:modify"
     ]
   end
+  def replace_color(from, to)
+    @args += [
+      "-channel", "all",
+      "-fill", to,
+      "-opaque", from
+    ]
+  end
 end
 
 def hair_base(path, target)
@@ -118,6 +125,8 @@ def hair_base(path, target)
     # Foreground
     builder.add_layer ""
     builder.add_mask "#FFFFFF"
+    # Remove shadow color
+    builder.replace_color "#EAA377", "#00000000"
 
     argspath = ".convert-#{layer}-#{gender}-#{name}"
     begin
