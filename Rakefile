@@ -1,6 +1,12 @@
 require './_build/sheets'
 require 'yaml'
 
+class String
+  def quote
+    '"' + self + '"'
+  end
+end
+
 class Palettes
   class << self
     def [](name)
@@ -76,7 +82,7 @@ class SheetBuilder
     if File.file? masks_path
       @args += [
         "(",
-        masks_path,
+        masks_path.quote,
         # Make everything transparent except mask_color
         "+transparent", mask_color,
         ")",
