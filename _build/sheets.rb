@@ -218,7 +218,7 @@ class Sheet
     def reference_path(infile, basename)
       gender = gender_name(infile)
       layer = layer_name(infile)
-      reference_filename = "#{basename}_#{gender}_#{layer}.png"
+      reference_filename = "#{layer}/#{basename}_#{gender}.png"
       File.join(File.dirname(__FILE__), reference_filename)
     end
     def reference_points_path(infile)

@@ -50,7 +50,7 @@ class SheetBuilder
     rows.keys.sort.each do |row|
       frames = rows[row]
       @args << "("
-      fullname = "_build/#{layer}/#{name}/#{source_prefix}full"
+      fullname = "_build/#{layer}/#{name}/#{source_prefix}full.png"
       if File.file?(fullname)
         @args << "#{fullname}[832x1344]"
       else
