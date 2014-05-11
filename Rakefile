@@ -50,17 +50,22 @@ class SheetBuilder
     rows.keys.sort.each do |row|
       frames = rows[row]
       @args << "("
-      frames.each_with_index do |frame, frame_index|
-        basename = "_build/#{layer}/#{name}/#{source_prefix}#{frame.direction}"
-        frame_matches = Dir["%s-*%s%X*.png" % [basename, frame.pose.name, frame_index]]
-        raise "Multiple matches found: #{frame_matches.join(', ')}" if frame_matches.length > 1
-        filename = frame_matches.first || "#{basename}.png"
-        if File.file?(filename)
-          x = 64 - frame.x
-          y = 64 - frame.y
-          @args << "#{filename}[64x64+#{x}+#{y}]"
-        else
-          @args << "xc:none[64x64]"
+      fullname = "_build/#{layer}/#{name}/#{source_prefix}full"
+      if File.file?(fullname)
+        @args << "#{fullname}[832x1344]"
+      else
+        frames.each_with_index do |frame, frame_index|
+          basename = "_build/#{layer}/#{name}/#{source_prefix}#{frame.direction}"
+          frame_matches = Dir["%s-*%s%X*.png" % [basename, frame.pose.name, frame_index]]
+          raise "Multiple matches found: #{frame_matches.join(', ')}" if frame_matches.length > 1
+          filename = frame_matches.first || "#{basename}.png"
+          if File.file?(filename)
+            x = 64 - frame.x
+            y = 64 - frame.y
+            @args << "#{filename}[64x64+#{x}+#{y}]"
+          else
+            @args << "xc:none[64x64]"
+          end
         end
       end
       @args << "+append"
@@ -180,21 +185,27 @@ def recolor(type, gender, name)
     end
   end
 end
-def hair_and_recolors(gender, name)
-  hair_base "hair/#{gender}/#{name}.png", name.to_sym
-  recolor "hair", gender, name
+def hair_and_recolors(type, gender, name)
+  hair_base "#{type}/#{gender}/#{name}.png", name.to_sym
+  recolor type, gender, name
 end
-def hair(name)
+def hair(type, name)
   namespace :hair do
     desc "Generates #{name} hair spritesheet and recolors"
     task name.to_sym
   end
-  hair_and_recolors "female", name
-  hair_and_recolors "male", name
+  hair_and_recolors type, "female", name
+  hair_and_recolors type, "male", name
 end
+
 Dir["_build/hair/*"].each do |dir|
   if File.directory?(dir)
-    hair File.basename(dir)
+    hair "hair", File.basename(dir)
+  end
+end
+Dir["_build/facial/*"].each do |dir|
+  if File.directory?(dir)
+    hair "facial", File.basename(dir)
   end
 end
 

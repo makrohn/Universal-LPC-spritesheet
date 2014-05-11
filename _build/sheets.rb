@@ -207,7 +207,7 @@ class Sheet
       /\b(fe)?male\b/.match(path).to_s
     end
     def layer_name(path)
-      /\b(hair)\b/.match(dir(path)).to_s
+      /\b(hair|facial)\b/.match(dir(path)).to_s
     end
     def load(path, reference_points_sheet = nil)
       Sheet.new(path, reference_points_sheet).load
