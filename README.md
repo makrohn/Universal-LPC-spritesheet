@@ -36,4 +36,5 @@ Collaborating
 
 If you'd like to help out, please do so!  I've worked with @joewhite to hammer out some basic guidelines:
  - Edit the .png files, not the .xcf.  Once the pull is merged, a maintainer (@makrohn) will fold the .png files into the .xcf
+ - For hairstyles, you can create a few small images, and then generate the spritesheets from them. See [EditingHair](EditingHair.md).
  - As with code, try to keep pull requests grouped thematically - eg, "skintonefixes" "suitandtie" "blackshoes" so they can be evaluated separately.
