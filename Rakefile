@@ -39,7 +39,7 @@ class SheetBuilder
     ]
   end
 
-  def add_layer(source_prefix)
+  def add_layer(source_prefix, gender)
     layer = Sheet.layer_name(@outpath)
     name = File.basename(@outpath, ".png")
     return if Dir["_build/#{layer}/#{name}/#{source_prefix}*"].empty?
@@ -47,13 +47,13 @@ class SheetBuilder
     reference_points_sheet = Sheet.reference_points_sheet @outpath
     rows = reference_points_sheet.frames.group_by {|f| f.row}
     @args << "("
-    rows.keys.sort.each do |row|
-      frames = rows[row]
-      @args << "("
-      fullname = "_build/#{layer}/#{name}/#{source_prefix}full.png"
-      if File.file?(fullname)
-        @args << "#{fullname}[832x1344]"
-      else
+    fullname = "_build/#{layer}/#{name}/#{gender}/#{source_prefix}full.png"
+    if File.file?(fullname)
+      @args << "#{fullname}[832x1344]"
+    else
+      rows.keys.sort.each do |row|
+        frames = rows[row]
+        @args << "("
         frames.each_with_index do |frame, frame_index|
           basename = "_build/#{layer}/#{name}/#{source_prefix}#{frame.direction}"
           frame_matches = Dir["%s-*%s%X*.png" % [basename, frame.pose.name, frame_index]]
@@ -67,9 +67,9 @@ class SheetBuilder
             @args << "xc:none[64x64]"
           end
         end
+        @args << "+append"
+        @args << ")"
       end
-      @args << "+append"
-      @args << ")"
     end
     @args << "-append"
     @args << ")"
@@ -128,13 +128,13 @@ def hair_base(path, target)
   file path => dependencies do
     builder = SheetBuilder.new path
     # Background
-    builder.add_layer "bg-"
+    builder.add_layer "bg-", gender
     builder.add_mask "#808080"
     # Behind body
-    builder.add_layer "behindbody-"
+    builder.add_layer "behindbody-", gender
     builder.add_mask "#C0C0C0"
     # Foreground
-    builder.add_layer ""
+    builder.add_layer "", gender
     builder.add_mask "#FFFFFF"
     # Remove shadow color
     builder.replace_color "#EAA377", "#00000000"
