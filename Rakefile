@@ -213,6 +213,10 @@ namespace :hair do
   desc "Generates all hair spritesheets and recolors"
   task :all
 end
+namespace :facial do
+  desc "Generates all facial spritesheets and recolors"
+  task :all
+end
 
 desc "Generates all images"
-task :default => ["hair:all"]
+task :default => ["hair:all","facial:all"]
