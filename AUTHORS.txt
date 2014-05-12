@@ -163,6 +163,7 @@ thrust and shoot animations for slippers layers
 green pants (f)
 ponytail2 hairstyle (f)
 plain hairstyle (m)
+hairstyle autoposition/recolor script
 
 Mark Weyer
 ----------
@@ -195,11 +196,23 @@ Trimmed cape [behind body] (f)
 Tattered cape [behind body] (f)
 Cape clip [accessories/neck] (f)
 Cape strap [accessories/neck] (f)
+Jewfro Hair
+Shortknot Hair
+Longknot Hair
+Xlongknot Hair
+Facial Hair Autoposition (Joe White's script extended)
+Full Hairstyle Frame Recolors (Joe White's script extended)
 
 Nila122
 ---------
 darkelf (male and female)
 darkelf2 (male and female)
+extra long hairstyle
+red2, black2, purple, brown2, gold hair recolors
+
+neo4cat6
+---------
+Beard and Mustache
 
 They are not responsible for any terrible job I do messing with color sliders for hair and clothing.
 
