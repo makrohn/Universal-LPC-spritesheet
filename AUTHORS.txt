@@ -62,6 +62,8 @@ The following base animations:
 Oversized spear
 Oversized male longsword
 Oversized male rapier
+dark2 skinned color tones
+grey eyes (male and female)
 
 Marcel van de Steeg
 -------------------
@@ -164,11 +166,6 @@ green pants (f)
 ponytail2 hairstyle (f)
 plain hairstyle (m)
 hairstyle autoposition/recolor script
-
-Mark Weyer
-----------
-dark2 (male and female)
-grey eyes (male and female)
 
 Barbara Rivera
 --------------
